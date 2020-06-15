@@ -24,7 +24,7 @@ a {
 
 a:hover {
   /*color: #204051;*/
-  font-size: 20px;
+  font-size: 35px;
 }
 
 div{
@@ -60,7 +60,7 @@ div{
 }
 
 .social {
-  font-size: 36px;
+  font-size: 35px;
 }
 
 @media (max-width: 960px) {
