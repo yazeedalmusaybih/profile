@@ -6,6 +6,7 @@ body {
   font-weight: 400; /* if you want the light version */
   background: rgb(240,240,240);
   font-size: 17px;
+  width: auto;
 }
 
 h1,h2 {
@@ -47,6 +48,8 @@ div{
   margin: 20px;
   color: white;
   border-radius: 4px;
+  font-size: 35px;
+
 }
 
 .list-inline > li {
@@ -63,6 +66,12 @@ div{
   font-size: 35px;
 }
 
+@media (max-width: 960px) {
+   /*For a screen < 960px, this CSS will be read*/
+  .container {
+    width: 700px;
+  }
+}
 @media (max-width: 540px) {
  /*For a screen < 540px, this CSS will be read */*/
   .container {
@@ -73,11 +82,5 @@ div{
    /*For a screen < 720px, this CSS will be read*/
   .container {
     width: 500px;
-  }
-}
-@media (max-width: 960px) {
-   /*For a screen < 960px, this CSS will be read*/
-  .container {
-    width: 700px;
   }
 }
